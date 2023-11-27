@@ -7,3 +7,5 @@ logs
 /logging/
 *.pt
 *.pth
+*.avi
+/images/
