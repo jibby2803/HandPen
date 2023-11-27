@@ -1,6 +1,6 @@
 # HandPen
 ## Introduction:
-Here is source code for an example of hand tracking using **mediapipe** libarary. For more details, you can refer to the following links:
+Here is source code for an example of hand tracking using **mediapipe** library. For more details, you can refer to the following links:
 * https://developers.google.com/mediapipe/solutions/vision/hand_landmarker/python
 * https://mediapipe.readthedocs.io/en/latest/solutions/hands.html
 
