@@ -1,7 +1,5 @@
 import cv2
 import mediapipe as mp
-from mediapipe.tasks import python
-from mediapipe.tasks.python import vision
 
 class Tracker():
     def __init__(self, static_image_mode=False, max_num_hands=2, 
@@ -71,8 +69,9 @@ class Tracker():
                     
     
 if __name__ == "__main__":
-    tracker = Tracker()
-    img = cv2.imread("./images/2.jpeg")
-    img = tracker.hand_landmark(img)
-    cv2.imshow('image', tracker.tracking(img))
-    cv2.waitKey(0)
+    pass
+    # tracker = Tracker()
+    # img = cv2.imread("./images/2.jpeg")
+    # img = tracker.hand_landmark(img)
+    # cv2.imshow('image', tracker.tracking(img))
+    # cv2.waitKey(0)

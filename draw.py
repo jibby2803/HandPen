@@ -1,6 +1,5 @@
 from tracker import Tracker
 import cv2
-import imageio
 
 tracker = Tracker()
 cap = cv2.VideoCapture(0)
